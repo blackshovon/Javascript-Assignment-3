@@ -1,4 +1,0 @@
-kilometerToMeter
-budgetCalculator
-hotelCost
-megaFriend
