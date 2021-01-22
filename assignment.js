@@ -1,14 +1,21 @@
-
+// https://github.com/blackshovon/Javascript-Assignment-3
+// github link
 
 
 
 // Kilometer To Meter Converter
 
 function kilometerToMeter(kilometer) {
-    var meter = kilometer * 1000;
-    return meter;
+    if (kilometer > 0) {
+        var meter = kilometer * 1000;
+        return meter;
+    }
+    else
+        return ("invalid parameter");
 }
-var result = kilometerToMeter(156);
+
+// var result = kilometerToMeter(-0);
+// console.log(result)
 
 
 
@@ -65,7 +72,7 @@ function megaFriend(friends) {
     return megaFriend;
 }
 
-var friends = ["Asif", "Sabbir" , "Sony" , "Al amin" , "Mele"]
+// var friends = ["Asif", "Sabbir", "Sony", "Al amin", "Mele"]
 
-var result = megaFriend(friends)
-// console.log(result)
+// var result = megaFriend(friends)
+// // console.log(result)
