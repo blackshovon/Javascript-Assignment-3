@@ -44,6 +44,15 @@ function hotelCost(days) {
 
 // Mega friend finder or friend with a higher name length
 
-function megaFriend[Array]{
-    
+var friends = ["Asif", "Sabbir" , "Sony" , "Al amin" , "Mele"]
+var mega = 0;
+
+function megaFriend(friends){
+    for (var i = 0; i < friends.length; i++) {
+        if (friends[i].length > mega){
+            var mega = friends[i].length
+            var megaFriend = friends[i]
+        }
+    }
+    return megaFriend;
 }
