@@ -1,12 +1,18 @@
 
-// Kilometer To Meter Converter
 
+
+
+// Kilometer To Meter Converter
 
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     return meter;
 }
 var result = kilometerToMeter(156);
+
+
+
+
 
 // Simple Budget Calculator
 
@@ -17,6 +23,9 @@ function budgetCalculator(watch, mobile, laptop) {
     var totalCost = watchCost + mobileCost + laptopCost;
     return totalCost
 }
+
+
+
 
 // simple hotel costing calculator
 
@@ -42,17 +51,21 @@ function hotelCost(days) {
 }
 
 
+
 // Mega friend finder or friend with a higher name length
 
-var friends = ["Asif", "Sabbir" , "Sony" , "Al amin" , "Mele"]
-var mega = 0;
-
-function megaFriend(friends){
+function megaFriend(friends) {
+    var mega = 0;
     for (var i = 0; i < friends.length; i++) {
-        if (friends[i].length > mega){
+        if (friends[i].length > mega) {
             var mega = friends[i].length
             var megaFriend = friends[i]
         }
     }
     return megaFriend;
 }
+
+var friends = ["Asif", "Sabbir" , "Sony" , "Al amin" , "Mele"]
+
+var result = megaFriend(friends)
+// console.log(result)
